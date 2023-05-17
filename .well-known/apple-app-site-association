@@ -1,0 +1,54 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appIDs": [
+                    "CP254EK6EQ.ru.1cupis.app.ios"
+                ],
+                "appID": "CP254EK6EQ.ru.1cupis.app.ios",
+                "components": [
+                    {
+                        "/": "refillsbp"
+                    },
+                    {
+                        "/": "main/support/feedback/"
+                    },
+                    {
+                        "/": "account"
+                    },
+                    {
+                        "/": "main/account/identification"
+                    },
+                    {
+                        "/": "/main/account/settings/"
+                    },
+                    {
+                        "/": "/main/notifications"
+                    },
+                    {
+                        "/": "/card/*"
+                    },
+                    {
+                        "/": "*",
+                        "exclude": true
+                    }
+                ],
+                "paths": [
+                    "/refillsbp",
+                    "/history",
+                    "/chat",
+                    "/account",
+                    "/account/identification",
+                    "/account/settings",
+                    "/notifications",
+                    "/card",
+                    "/card/cahsback",
+                    "/card/cahsback/statement",
+                    "/card/cahsback/settings",
+                    "NOT *"
+                ]
+            }
+        ]
+    }
+}
